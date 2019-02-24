@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
 
-const Singin = () => {
+const SinginLinks = () => {
     return (
         <ul id="nav-mobile" className="right">
             <li><NavLink to="/">New Project +</NavLink></li>
@@ -11,4 +11,4 @@ const Singin = () => {
     )
 }
 
-export default Singin
+export default SinginLinks

@@ -1,14 +1,14 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
 
-const Singout = () => {
+const SingoutLinks = () => {
     return (
         <ul id="nav-mobile" className="right hide-on-med-and-down">
-            <li><NavLink to="/">SingIn</NavLink></li>
-            <li><NavLink to="/">SingUp</NavLink></li>
+            <li><NavLink to="/signin">SingIn</NavLink></li>
+            <li><NavLink to="/signup">SingUp</NavLink></li>
         </ul>
         
     )
 }
 
-export default Singout
+export default SingoutLinks
