@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const PojectSummary = () => {
     return (
-        <div className="card z-depth-2">
+        <div className="card z-depth-2 hoverable">
             <div className="card-content">
                 <span className="card-title"> Card Title </span>
                 <p>Posted by USERNAME</p>
