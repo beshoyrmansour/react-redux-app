@@ -10,10 +10,12 @@ const initialState = {
 };
 
 
-const ProjectReducer = (state = initialState, { type, payload }) => {
+const ProjectReducer = (state = initialState, { type, project }) => {
   switch (type) {
-    // case typeName:
-    //   return { ...state, ...payload };
+    case 'CREATE_PROJECT':
+    console.log('...state, ...project',({...state.projects, ...project}));
+    
+      return { ...state, ...project };
 
     default:
       return state;
