@@ -3,6 +3,8 @@ import React from 'react'
 
 const PojectDetails = (props) => {
     const id = props.match.params.id
+    const { project } = props
+
     return (
         <div className="container section">
             <div className="card z-depth-2">

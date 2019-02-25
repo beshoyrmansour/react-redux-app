@@ -1,11 +1,12 @@
 const initialState = {};
 
-export default (AuthReducer = (state = initialState, { type, payload }) => {
+const AuthReducer = (state = initialState, { type, payload }) => {
   switch (type) {
-    case typeName:
-      return { ...state, ...payload };
+    // case typeName:
+    //   return { ...state, ...payload };
 
     default:
       return state;
   }
-});
+};
+export default AuthReducer
